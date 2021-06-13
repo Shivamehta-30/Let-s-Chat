@@ -54,7 +54,7 @@ const ChatFeed = (props) => {
                 {`${new Date().toLocaleString()}`}
                 </div>
                 <div>
-                    <form action="/src/Components/LoginForm.jsx">
+                    <form action="LoginForm.jsx">
                         <button style={{color:"white",background:"#8772a0"}} onClick={localStorage.clear()}>
                             Logout
                         </button>
