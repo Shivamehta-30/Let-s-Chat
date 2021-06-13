@@ -55,9 +55,8 @@ const ChatFeed = (props) => {
                 </div>
                 <div>
                     <form action="/src/Components/LoginForm.jsx">
-                        <button style={{color:"white",background:"#8772a0"}}>
+                        <button style={{color:"white",background:"#8772a0"}} onClick={localStorage.clear()}>
                             Logout
-                            {localStorage.clear()}
                         </button>
 
                     </form>
